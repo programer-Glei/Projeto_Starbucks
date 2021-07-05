@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,5 +20,12 @@ header .line{
 }
 
 header .container{
-    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-right{
+    display: flex;
+    align-items: center;
 }
