@@ -13,3 +13,7 @@ header .line{
     height: 10px;
     background-color: #117050;
 }
+
+header .container{
+    max-width: 1140px;
+}
