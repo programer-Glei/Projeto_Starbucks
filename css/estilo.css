@@ -39,9 +39,27 @@ header .header-right{
     align-items: center;
 }
 
+.input-search{
+    display: flex;
+    align-items: center;
+}
+
 .input-search input{
     font-size: 16px;
     padding: 7px 10px;
     border: 1px solid #999999;
     outline: none;
+    width: 100%;
+    max-width: 220px;
+}
+
+.input-search button{
+    border: none;
+    background: transparent;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.input-search button img{
+    width: 16px;
 }
