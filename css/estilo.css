@@ -14,6 +14,16 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* GERAL */
+
+.bar-verde{
+    width: 168px;
+    height: 22px;
+    background-color: #006341;
+}
+
+/* HEADER */
+
 header .header-area{
     height: 100px;
     border: 1px solid red;
@@ -108,13 +118,14 @@ header .header-right{
 }
 
 .area1 .area1--content{
-    padding: 40px;
+    padding: 80px;
 }
 
 .area1 .area1--img1{
     background-image: url("../img/f2.jpg");
     background-position: center;
     background-size: cover;
+    height: 347px;
 }
 
 .area1 .area1--img2{
