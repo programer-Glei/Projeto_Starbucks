@@ -1,0 +1,24 @@
+
+@media (min-width: 769px) and (max-width: 1140px){
+    .container{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .area1{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area2{
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3{
+        grid-template-columns: 3fr 2fr;
+    }
+}
