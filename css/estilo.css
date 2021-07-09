@@ -106,3 +106,21 @@ header .header-right{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.area1 .area1--content{
+    padding: 40px;
+}
+
+.area1 .area1--img1{
+    background-image: url("../img/f2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.area1 .area1--img2{
+    background-image: url("../img/f1.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 /3;
+    grid-row: 1 / 3;
+}
