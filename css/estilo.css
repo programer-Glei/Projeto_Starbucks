@@ -192,3 +192,23 @@ header .header-right{
     background-size: cover;
     height: 500px;
 }
+
+/* AREA 3 */
+
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3 .area3--content{
+    padding: 200px 80px;
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+.area3 .area3--img1{
+    background-image: url("../img/f5.jpg");
+    background-position: center;
+    background-size: cover;
+}
