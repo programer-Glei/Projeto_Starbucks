@@ -238,3 +238,12 @@ header .header-right{
     background-size: cover;
     height: 800px;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 80px;
+    text-align: center;
+}
