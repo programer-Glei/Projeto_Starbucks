@@ -5,7 +5,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (min-width: 426px) and (max-width: 768px){
     .container{
         padding: 0 20px;
     }
@@ -20,5 +20,21 @@
 
     .area3{
         grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width: 425px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .input-search input{
+        max-width: 120px;
+    }
+
+    .banner h1{
+        font-size: 50px;
+        line-height: 50px;
+        
     }
 }
