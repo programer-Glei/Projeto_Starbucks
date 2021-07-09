@@ -45,7 +45,11 @@
         margin-right: 10px;
     }
 
-    .area1{
+    .area1, .area2, .area3{
         grid-template-columns: 1fr;
+    }
+
+    .area1 .area1--content, .area2--content, .area3--content{
+        padding: 40px;
     }
 }
