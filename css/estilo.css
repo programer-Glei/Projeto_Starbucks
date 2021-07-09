@@ -48,7 +48,6 @@ h2{
 
 header .header-area{
     height: 100px;
-    border: 1px solid red;
 }
 
 header .line{
@@ -82,7 +81,7 @@ header .header-right{
     border: 1px solid #999999;
     outline: none;
     width: 100%;
-    max-width: 250px;
+    max-width: 280px;
 }
 
 .input-search button{
